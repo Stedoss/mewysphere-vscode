@@ -1961,6 +1961,12 @@
             }
         },
         {
+            "scope": "entity.name.tag.yaml",
+            "settings": {
+                "foreground": "#82d2ce"
+            }
+        },
+        {
             "scope": [
                 "constant.language.symbol.elixir"
             ],
