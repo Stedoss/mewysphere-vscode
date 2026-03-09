@@ -23,15 +23,22 @@
     "theme",
     "dark theme",
     "anysphere",
+    "mewysphere",
     "color theme"
   ],
   "contributes": {
     "themes": [
       {
-        "id": "Mewysphere",
+        "id": "Mewysphere Dark",
         "label": "Mewysphere Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/mewysphere-theme.json"
+        "path": "./themes/mewysphere-dark.json"
+      },
+      {
+        "id": "Mewysphere Black",
+        "label": "Mewysphere Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mewysphere-black.json"
       }
     ]
   }
