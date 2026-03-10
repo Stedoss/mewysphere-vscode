@@ -2,7 +2,7 @@
   "name": "mewysphere-vscode",
   "displayName": "Mewysphere Theme Collection",
   "description": "A personal take on popular VSCode themes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "Stedoss",
   "license": "MIT",
   "galleryBanner": {
@@ -39,6 +39,12 @@
         "label": "Mewysphere Black",
         "uiTheme": "vs-dark",
         "path": "./themes/mewysphere-black.json"
+      },
+      {
+        "id": "Mewysphere Zero",
+        "label": "Mewysphere Zero",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mewysphere-zero.json"
       }
     ]
   }
