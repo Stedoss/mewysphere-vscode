@@ -3,6 +3,9 @@
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "*.local": {
+            "foreground": "#d6d6dd"
+        },
         "enumMember": {
             "foreground": "#d6d6dd"
         },
