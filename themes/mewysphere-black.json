@@ -24,12 +24,10 @@
         "variable.other.property": "#AA9BF5",
         "variable.other": "#AA9BF5",
         "method.declaration": {
-            "foreground": "#efb080",
-            "fontStyle": "bold"
+            "foreground": "#efb080"
         },
         "meta.definition.property.ts": {
-            "foreground": "#AA9BF5",
-            "fontStyle": "bold"
+            "foreground": "#AA9BF5"
         },
         "entity.name.function": {
             "foreground": "#E3C893"
@@ -40,8 +38,7 @@
         "support.variable.property": "#AA9BF5",
         "class.decorator.builtin:python": "#a8cc7c",
         "function.declaration": {
-            "foreground": "#efb080",
-            "fontStyle": "bold"
+            "foreground": "#efb080"
         },
         "operatorOverload": "#d1d1d1",
         "memberOperatorOverload": "#d1d1d1",
@@ -51,8 +48,7 @@
         "type:cpp": "#87c3ff",
         "function": "#ebc88d",
         "function:cpp": {
-            "foreground": "#efefef",
-            "bold": true
+            "foreground": "#efefef"
         },
         "class:python": {
             "foreground": "#ebc88d",
@@ -78,8 +74,7 @@
         "property.declaration:c": "#af9cff",
         "type:c": "#87c3ff",
         "function:c": {
-            "foreground": "#efefef",
-            "fontStyle": "bold"
+            "foreground": "#efefef"
         },
         "property:c": "#af9cff",
         "function:cmake": "#87c3ff",
@@ -1976,7 +1971,7 @@
         },
         {
             "name": "js/ts italic",
-            "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+            "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
             "settings": {
                 "fontStyle": "italic"
             }
