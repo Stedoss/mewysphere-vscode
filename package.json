@@ -45,6 +45,12 @@
         "label": "Mewysphere Zero",
         "uiTheme": "vs-dark",
         "path": "./themes/mewysphere-zero.json"
+      },
+      {
+        "id": "Mewysphere Rider Light",
+        "label": "Mewysphere Rider Light",
+        "uiTheme": "vs",
+        "path": "./themes/mewysphere-rider-light.json"
       }
     ]
   }
