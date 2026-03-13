@@ -178,7 +178,7 @@
       "name": "JSON key",
       "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
       "settings": {
-        "foreground": "#000000"
+        "foreground": "#0F54D6"
       }
     },
     {
