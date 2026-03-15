@@ -569,7 +569,7 @@
     "list.focusBackground": "#0F54D680",
     "list.focusForeground": "#FFFFFF",
     "list.highlightForeground": "#0F54D6",
-    "list.hoverBackground": "#FFFFFF1a",
+    "list.hoverBackground": "#6e86ff",
     "list.inactiveSelectionBackground": "#FFFFFF33",
     "activityBar.background": "#ffffff",
     "activityBar.dropBackground": "#0F54D680",
