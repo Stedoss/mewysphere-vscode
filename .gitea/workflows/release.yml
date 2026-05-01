@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Install VSCE
-        run: npm install -g vsc
+        run: npm install -g vsce
 
       - name: Build Package
         run: vsce package
