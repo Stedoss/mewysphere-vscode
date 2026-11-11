@@ -1,4 +1,4 @@
-name: Build and Create Release
+name: Check and Build
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - "*"
 
 jobs:
-  build:
+  check-build:
     name: Build and Release
     runs-on: ubuntu-latest
     container: node:current-alpine
