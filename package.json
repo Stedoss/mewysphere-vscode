@@ -5,6 +5,10 @@
   "version": "1.0.7",
   "publisher": "Stedoss",
   "license": "MIT",
+  "scripts": {
+    "format:check": "prettier . --check",
+    "format:write": "prettier . --write"
+  },
   "galleryBanner": {
     "color": "#1a1a1a",
     "theme": "dark"
@@ -59,5 +63,9 @@
         "path": "./themes/mewysphere-one-dark-darker.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.1.0",
+    "prettier": "3.10.0"
   }
 }
