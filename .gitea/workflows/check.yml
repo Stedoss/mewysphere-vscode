@@ -1,0 +1,27 @@
+name: Build and Create Release
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    container: node:current-alpine
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check formatting
+        run: npm run format:check
+
+      - name: Build Package
+        run: npm run package
