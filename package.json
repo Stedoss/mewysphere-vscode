@@ -6,6 +6,7 @@
   "publisher": "Stedoss",
   "license": "MIT",
   "scripts": {
+    "package": "vsce package",
     "format:check": "prettier . --check",
     "format:write": "prettier . --write"
   },
